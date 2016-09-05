@@ -1,13 +1,13 @@
 Package.describe({
-  name: 'pascoual:pdfkitx',
-  version: '0.0.3',
+  name: 'projik:pdfkitx',
+  version: '0.0.4',
   summary: 'PDFKit, the PDF generation library for servers and browsers.',
   git: 'https://github.com/pascoual/meteor-pdfkitx.git',
   documentation: 'README.md'
 });
 
 Npm.depends({
-  'pdfkit': "0.7.1",
+  'pdfkit': "0.8.0",
   'blob-stream': "0.1.3",
   'brfs': "1.4.1"
 });
